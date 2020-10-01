@@ -1,0 +1,84 @@
+{
+    "inventory": [ 
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+    ],
+    "services": {
+        "M": 2,
+        "Moneypenny": 6,
+        "intelligence": [
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": [
+                            "006",
+                            "002"
+                        ],
+                        "duration": 20,
+                        "gadget": "a",
+                        "name": "Casino Royale",
+                        "timeExpired": 100,
+                        "timeIssued": 5
+                    },
+                    {
+                        "serialAgentsNumbers": ["006","007"],
+                        "duration": 20,
+                        "gadget": "b",
+                        "name": "Quantum of Solace",
+                        "timeExpired": 100,
+                        "timeIssued": 15
+                    },
+                    {
+                        "serialAgentsNumbers": [
+                            "0012",
+                            "007"
+                        ],
+                        "duration": 50,
+                        "gadget": "c",
+                        "name": "Skyfall",
+                        "timeExpired": 100,
+                        "timeIssued": 30
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "d",
+                        "name": "Spectre",
+                        "timeExpired": 100,
+                        "timeIssued": 38
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "e",
+                        "name": "No Time to Die",
+                        "timeExpired": 100,
+                        "timeIssued": 40
+                    }
+                ]
+            }
+        ],
+        "time": 45
+    },
+    "squad": [
+        {
+            "name": "James Bond",
+            "serialNumber": "007"
+        },
+        {
+            "name": "Alec Trevelyan",
+            "serialNumber": "006"
+        },
+        {
+            "name": "Bill Fairbanks",
+            "serialNumber": "002"
+        },
+        {
+            "name": "Sam Johnston",
+            "serialNumber": "0012"
+        }
+    ]
+}
