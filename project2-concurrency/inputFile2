@@ -1,0 +1,122 @@
+{
+    "inventory": [ 
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+    ],
+    "services": {
+        "M": 6,
+        "Moneypenny": 5,
+        "intelligence": [
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "a",
+                        "name": "Dr. No",
+                        "timeExpired": 100,
+                        "timeIssued": 2
+                    },
+                    {
+                        "serialAgentsNumbers": ["006"],
+                        "duration": 1,
+                        "gadget": "b",
+                        "name": "From Russia With Love",
+                        "timeExpired": 100,
+                        "timeIssued": 4
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "c",
+                        "name": "Goldfinger",
+                        "timeExpired": 100,
+                        "timeIssued": 6
+                    },
+                    {
+                        "serialAgentsNumbers": ["006"],
+                        "duration": 1,
+                        "gadget": "d",
+                        "name": "Thunderball",
+                        "timeExpired": 100,
+                        "timeIssued": 8
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "e",
+                        "name": "You Only Live Twice",
+                        "timeExpired": 100,
+                        "timeIssued": 10
+                    },
+                    {
+                        "serialAgentsNumbers": ["006"],
+                        "duration": 1,
+                        "gadget": "f",
+                        "name": "On Her Majesty's Secret Service",
+                        "timeExpired": 100,
+                        "timeIssued": 12
+                    },
+                    {
+                        "serialAgentsNumbers": ["006","007"],
+                        "duration": 1,
+                        "gadget": "g",
+                        "name": "Diamonds Are Forever",
+                        "timeExpired": 100,
+                        "timeIssued": 14
+                    },
+                    {
+                        "serialAgentsNumbers": ["007","008"],
+                        "duration": 1,
+                        "gadget": "h",
+                        "name": "Live and Let Die",
+                        "timeExpired": 100,
+                        "timeIssued": 16
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "h",
+                        "name": "The Man with the Golden Gun",
+                        "timeExpired": 100,
+                        "timeIssued": 18
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "h",
+                        "name": "The Spy Who Loved Me",
+                        "timeExpired": 100,
+                        "timeIssued": 20
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 10,
+                        "gadget": "i",
+                        "name": "Moonraker",
+                        "timeExpired": 100,
+                        "timeIssued": 22
+                    }
+                ]
+            }
+        ],
+        "time": 30
+    },
+    "squad": [
+        {
+            "name": "James Bond",
+            "serialNumber": "007"
+        },
+        {
+            "name": "Alec Trevelyan",
+            "serialNumber": "006"
+        }
+    ]
+}
