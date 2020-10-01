@@ -1,0 +1,131 @@
+{
+    "inventory": [ 
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+    ],
+    "services": {
+        "M": 4,
+        "Moneypenny": 6,
+        "intelligence": [
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": [
+                            "007",
+                            "006"
+                        ],
+                        "duration": 1,
+                        "gadget": "a",
+                        "name": "For Your Eyes Only",
+                        "timeExpired": 100,
+                        "timeIssued": 4
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 1,
+                        "gadget": "d",
+                        "name": "Octopussy",
+                        "timeExpired": 100,
+                        "timeIssued": 9
+                    },
+                    {
+                        "serialAgentsNumbers": ["007"],
+                        "duration": 25,
+                        "gadget": "g",
+                        "name": "Octopussy",
+                        "timeExpired": 100,
+                        "timeIssued": 12
+                    }
+                ]
+            },
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": [
+                            "006",
+                            "007"
+                        ],
+                        "duration": 1,
+                        "gadget": "b",
+                        "name": "A View to a Kill",
+                        "timeExpired": 100,
+                        "timeIssued": 4
+                    },
+                    {
+                        "serialAgentsNumbers": ["002"],
+                        "duration": 1,
+                        "gadget": "e",
+                        "name": "The Living Daylights",
+                        "timeExpired": 100,
+                        "timeIssued": 9
+                    },
+                    {
+                        "serialAgentsNumbers": ["006"],
+                        "duration": 10,
+                        "gadget": "f",
+                        "name": "GoldenEye ",
+                        "timeExpired": 100,
+                        "timeIssued": 14
+                    }
+                ]
+            },
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": ["006"],
+                        "duration": 30,
+                        "gadget": "a",
+                        "name": "Tomorrow Never Dies",
+                        "timeExpired": 100,
+                        "timeIssued": 9
+                    },
+                    {
+                        "serialAgentsNumbers": ["006","007"],
+                        "duration": 1,
+                        "gadget": "h",
+                        "name": "The World Is Not Enough",
+                        "timeExpired": 100,
+                        "timeIssued": 20
+                    }
+                ]
+            },
+            {
+                "missions": [
+                    {
+                        "serialAgentsNumbers": [
+                            "007",
+                            "0012"
+                        ],
+                        "duration": 35,
+                        "gadget": "b",
+                        "name": "Die Another Day",
+                        "timeExpired": 100,
+                        "timeIssued": 2
+                    }
+                ]
+            }
+        ],
+        "time": 30
+    },
+    "squad": [
+        {
+            "name": "James Bond",
+            "serialNumber": "007"
+        },
+        {
+            "name": "Alec Trevelyan",
+            "serialNumber": "006"
+        },
+        {
+            "name": "Bill Fairbanks",
+            "serialNumber": "002"
+        }
+    ]
+}
